@@ -1,0 +1,12 @@
+#<Encode command>  <Frame Number>  <New Width> <New Height> #
+0                   400             640         360
+#<Encode command>  <Frame Number>  <New Bitrate> <New VBV size> #
+1                   400             3000000      100000
+#<Encode command>  <Frame Number>  <New Width> <New Height> #
+0                   1000            1280         720
+#<Encode command>  <Frame Number>  <New Bitrate> <New VBV size> #
+1                   1000             5000000     167000
+#<Encode command>  <Frame Number>  <New Width> <New Height> #
+0                   1400            640          360
+#<Encode command>  <Frame Number>  <New Bitrate> <New VBV size> #
+1                   1400           3000000       100000

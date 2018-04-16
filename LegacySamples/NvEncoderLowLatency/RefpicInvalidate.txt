@@ -1,0 +1,6 @@
+#<Encode command>  <Frame Number>  <ref frameidx>  <ref frameidx> #
+4                  100             95               94
+#<Encode command>  <Frame Number>  <ref frameidx>  <ref frameidx>  <ref frameidx>#
+4                  200             199              198            195
+#<Encode command>  <Frame Number>  <ref frameidx>  <ref frameidx>  <ref frameidx>#
+4                  400             390              385            384

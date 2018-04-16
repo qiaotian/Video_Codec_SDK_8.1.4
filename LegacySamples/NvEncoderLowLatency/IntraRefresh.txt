@@ -1,0 +1,6 @@
+#<Encode command>  <Frame Number>  <Intra refresh Duration>#
+3                  60               10
+#<Encode command>  <Frame Number>  <Intra refresh Duration>#
+3                  100              16
+#<Encode command>  <Frame Number>  <Intra refresh Duration>#
+3                  200              8

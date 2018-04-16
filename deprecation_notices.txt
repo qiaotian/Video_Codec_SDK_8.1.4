@@ -1,0 +1,25 @@
+Some features and functionality in the previous Video Codec SDK versions will
+be deprecated in future. We encourage all users of the SDK to take a note of
+this.
+
+1. Video SDK 8.1 replaces the sample applications with applications based only
+   new reusable/modular classes. The older SDK sample applications in folder
+   .\LegacySamples, although included in the SDK for reference, will be 
+   removed in the future SDK versions.
+2. CUvideosource and the associated APIs including cuvidCreateVideoSource,
+   cuvidCreateVideoSourceW, cuvidDestroyVideoSource, cuvidSetVideoSourceState,
+   cuvidGetVideoSourceState, cuvidGetSourceVideoFormat, 
+   cuvidGetSourceAudioFormat will be removed from the decoder API in future
+   SDK versions. Please note that the new decode sample applications in the 
+   SDK do not use these APIs, but instead use FFmpeg demultiplexer and parser.
+3. The older API headers for NVDECODE API that supported run-time dynamic
+   linking have been replaced with headers that allow load-time dynamic linking
+   only. The new SDK sample applications demonstrate load-time linking using
+   the new headers.
+4. Support for Video Codec SDK 4.0 and earlier will be deprecated in the drivers
+   releasing around Q4 2018. As a result, any application compiled with Video 
+   Codec SDK 4.0 or below header(s) will stop working after those drivers. 
+   Hence it is strongly recommended for users to migrate to later versions of 
+   Video Codec SDK.  	
+
+
